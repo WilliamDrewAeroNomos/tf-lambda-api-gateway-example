@@ -1,0 +1,3 @@
+#!/bin/bash
+
+curl "$(terraform output -raw base_url)/hello"
